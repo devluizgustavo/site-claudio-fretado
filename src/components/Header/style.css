@@ -1,0 +1,27 @@
+header {
+      text-align: center;
+      width: 75%;
+      margin: 0px auto;
+      display: flex;
+      justify-content: space-between;
+
+      nav {
+            margin-top: 40px;
+      }
+
+      & ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 95px;
+            text-align: center;
+            font-size: 18px;
+            list-style: none;
+            cursor: pointer;
+            font-weight: 550;
+      }
+}
+
+.logo {
+      height: 4.5em;
+      padding: 15px;
+}
