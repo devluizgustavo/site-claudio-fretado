@@ -1,59 +1,42 @@
 .carrosel {
-    text-align: center;
-    color: white;
-    position: sticky;
-    height: auto;
-    background: #08283de3;
-
-    & a {
-        text-decoration: none;
-        padding: 20px;
-        font-size: 20px;
-        background: rgb(255, 208, 54);
-        border: none;
-        text-align: center;
-        border-radius: 5px;
-        font-weight: 700;
-        color: #000;
-        width: 25em;
-        margin-top: 25px;
-        opacity: 75%;
-    }
-
-    & a:hover {
-        opacity: 100%;
-        transition: all 500ms;
-    }
+  text-align: center;
+  color: white;
+  position: sticky;
+  height: auto;
+  background: #429ec2;
+  background: linear-gradient(90deg, rgb(15, 83, 110) 0%, rgba(28, 70, 94, 0.596) 50%, rgb(29, 101, 129) 100%);
 }
 
 .hero-text-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
+
 .carrosel-container {
-    background: #000;
-    margin: 5px auto;
-    max-width: 85rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.575);
+  margin: 5px auto;
+  box-shadow: 2.2px 0px 2px rgba(0, 0, 0, 0.678);
+  border: none;
+  width: 100%;
+  height: 40em;
 }
 
 .carousel-image {
-    width: 100%;
-    height: 35em;
-    object-fit: cover;
-    filter: brightness(0.4);
+  width: 75%;
+  height: 40em;
+  object-fit: cover;
+  filter: brightness(0.4);
+  box-shadow: 2px 0px 10px #00000085;
 }
 
 .hero-text {
@@ -66,4 +49,19 @@
 .hero-subtext {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 895px) {
+  .hero-text {
+    font-size: 35px;
+  }
+
+  .hero-subtext {
+    font-size: 18px;
+  }
+
+  .btn-reservar {
+    width: 35%;
+    font-size: 15px;
+  }
 }

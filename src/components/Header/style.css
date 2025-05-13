@@ -6,22 +6,50 @@ header {
       justify-content: space-between;
 
       nav {
-            margin-top: 40px;
+            margin-top: 24px;
       }
 
       & ul {
             display: flex;
             justify-content: space-between;
-            gap: 95px;
+            gap: 40px;
             text-align: center;
-            font-size: 18px;
+            font-size: 17px;
             list-style: none;
             cursor: pointer;
-            font-weight: 550;
+      }
+
+      & li {
+            opacity: 50%;
+
+            & a {
+                  text-decoration: none;
+                  color: black;
+            }
+      }
+
+      & li:hover {
+            opacity: 100%;
+            transition: ease-in-out 800ms;
       }
 }
 
 .logo {
-      height: 4.5em;
-      padding: 15px;
+      height: 3.5em;
+      padding-top: 10px;
+}
+
+@media (max-width: 840px) {
+      
+}
+
+@media (max-width: 684px) {
+      nav {
+            display: none;
+      }
+
+      a {
+            justify-content: center;
+            margin: 0 auto;
+      }
 }
