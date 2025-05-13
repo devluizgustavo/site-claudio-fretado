@@ -1,0 +1,49 @@
+.tour {
+    background: #429ec2;
+    background: linear-gradient(90deg, rgb(15, 83, 110) 0%, rgba(27, 98, 139, 0.705) 50%, rgb(29, 101, 129) 100%);
+
+}
+
+.container {
+    padding: 50px;
+    color: white;
+
+    & p {
+        font-size: 18px;
+        text-align: left;
+        max-width: 40%;
+        margin-right: 50px;
+    }
+}
+
+.bus_tour {
+        border-radius: 1.5em;
+        box-shadow: 5px 5px 25px #0000008e;
+        filter: brightness(0.8);
+        
+    }
+
+.text-container {
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.icon-praia {
+    opacity: 75%;
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+@media (max-width: 1080px) {
+    .text-container {
+        padding: 0px;
+        max-width: 100%;
+        display: block;
+
+        & p {
+            max-width: 100%;
+            margin: 0 0px 50px 0px;
+        }
+    }
+}
