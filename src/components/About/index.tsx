@@ -19,7 +19,6 @@ export default function About() {
                 <a href="#contact" className='link-reservar btn-reservar btn'>Reservar agora</a>
 
             </div>
-
         </section>
     )
 }

@@ -2,7 +2,6 @@ import './style.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
 
 import img1 from '../../img/1.jpg';
 import img2 from '../../img/2.jpg';
