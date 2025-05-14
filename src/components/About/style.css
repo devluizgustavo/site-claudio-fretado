@@ -41,7 +41,7 @@
     .container-about {
         display: inline-block;
         justify-content: center;
-        margin: 120px auto;
+        margin: 0px auto;
     }
 
     .text-about {
