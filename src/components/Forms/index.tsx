@@ -10,7 +10,7 @@ export default function Forms() {
                 </p>
 
                 <form
-                    action="https://formspree.io/f/seu_id_aqui"
+                    action="https://formspree.io/f/xldbadrg"
                     method="POST"
                     className="contato-form"
                 >
