@@ -21,7 +21,7 @@ export default function Forms() {
                 </form>
 
                 <div className="whatsapp-button">
-                    <a href="https://wa.me/5511981545368" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5511981545368">
                         Falar com Cláudio no WhatsApp
                     </a>
                 </div>

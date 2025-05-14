@@ -1,9 +1,12 @@
 .contato-container {
   max-width: 500px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 10px;
   text-align: center;
-  padding: 75px;
+
+  & p {
+    text-align: left;
+  }
 }
 
 .contato-title {
@@ -48,20 +51,95 @@
 
 .whatsapp-button {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .whatsapp-button a {
   position: relative;
   background-color: #25D366;
   color: white;
-  padding: 25px 35px;
   border-radius: 6px;
   font-size: 15px;
+  padding: 25px;
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s;
+  width: 100%;
 }
 
 .whatsapp-button a:hover {
   background-color: #1ebe5d;
+}
+
+@media (max-width: 670px) {
+  .contato-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 50px;
+  text-align: center;
+
+  & p {
+    text-align: left;
+  }
+}
+}
+
+@media (max-width: 520px) {
+  .contato-form input,
+  .contato-form textarea {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+  }
+
+  
+  .contato-title {
+    font-size: 20px;
+  }
+
+  form {
+    & input {
+      padding: 0px;
+    }
+  }
+
+  & p {
+    font-size: 12px;
+  }
+
+  .whatsapp-button a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .contato-container {
+    width: 100%;
+  }
+
+  & p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .whatsapp-button a {
+    padding: 6.4%;
+    font-size: 10px;
+  }
+
+  .contato-form input,
+  .contato-form textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 10px;
+  }
+
+  .contato-form button {
+    padding: 10px;
+    font-size: 10px;
+  }
 }

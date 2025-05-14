@@ -5,23 +5,28 @@
 }
 
 .container {
-    padding: 50px;
+    padding: 15px;
     color: white;
 
     & p {
         font-size: 18px;
         text-align: left;
-        max-width: 40%;
+        max-width: 75%;
         margin-right: 50px;
     }
 }
 
 .bus_tour {
-        border-radius: 1.5em;
-        box-shadow: 5px 5px 25px #0000008e;
-        filter: brightness(0.8);
-        
-    }
+    border-radius: 1.5em;
+    box-shadow: 5px 5px 25px #0000008e;
+    filter: brightness(0.8);
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    justify-content: center;
+
+}
 
 .text-container {
     justify-content: center;
@@ -46,4 +51,37 @@
             margin: 0 0px 50px 0px;
         }
     }
+
+    .bus_tour {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        & p {
+            font-size: 14px;
+            text-align: left;
+        }
+
+        & h1 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+
+    .text-container {
+        & p {
+            font-size: 12px;
+            text-align: left;
+        }
+    }
+
+    .icon-praia {
+    opacity: 75%;
+    filter: drop-shadow(1px 1px 2px #000);
+    height: 7.5em;
+}
 }

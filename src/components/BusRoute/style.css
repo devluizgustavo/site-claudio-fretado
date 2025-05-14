@@ -2,13 +2,13 @@
     margin: 0px auto;
     justify-content: center;
     text-align: center;
-    max-width: 80%;
+    max-width: 95%;
     padding: 25px;
 
     & p {
         margin-top: 20px;
         font-size: 18px;
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -16,14 +16,49 @@
     margin-top: 50px;
 }
 
-@media (max-width: 1090px) {
-    .img-itinerario {
-        height: 750px;
+.img-itinerario {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 420px) {
+    .bus-route-container {
+        & p {
+            font-size: 14px;
+            text-align: left;
+        }
+
+        & h1 {
+            font-size: 20px;
+        }
     }
 }
 
-@media (max-width: 870px) {
-    .img-itinerario {
-        height: 500px;
+@media (max-width: 520px) {
+    .bus-route-container {
+        & h1 {
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .bus-route-container {
+        & p {
+            font-size: 12px;
+            text-align: left;
+        }
+
+        & h1 {
+            font-size: 18px;
+        }
     }
 }

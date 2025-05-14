@@ -20,6 +20,7 @@
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 12px;
+  text-align: center;
   color: #333;
 }
 
@@ -43,4 +44,14 @@
 .footer-copy {
   font-size: 14px;
   color: #666;
+}
+
+@media (max-width: 420px) {
+  .footer-title {
+    font-size: 17px;
+  }
+
+  .footer-copy {
+    font-size: 12px;
+  }
 }

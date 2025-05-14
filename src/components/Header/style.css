@@ -6,7 +6,7 @@ header {
       justify-content: space-between;
 
       nav {
-            margin-top: 24px;
+            margin-top: 12px;
       }
 
       & ul {
@@ -35,21 +35,19 @@ header {
 }
 
 .logo {
-      height: 3.5em;
-      padding-top: 10px;
-}
-
-@media (max-width: 840px) {
-      
+      height: 3.2em;
+      margin-top: 16px;
 }
 
 @media (max-width: 684px) {
-      nav {
-            display: none;
-      }
-
       a {
             justify-content: center;
             margin: 0 auto;
+      }
+
+      nav {
+            display: none;
+            margin: 0;
+            padding: 0;
       }
 }

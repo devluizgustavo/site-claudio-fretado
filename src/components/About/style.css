@@ -1,6 +1,6 @@
 .container-about {
     margin: 75px auto;
-    text-align: center;
+    text-align: left;
     display: flex;
     padding-top: 50px;
     margin-left: 10%;
@@ -29,9 +29,9 @@
 }
 
 .btn {
-  width: 180px;
-  font-size: 16px;
-} 
+    width: 180px;
+    font-size: 16px;
+}
 
 .hero-text {
     margin-top: 25px;
@@ -48,12 +48,18 @@
         justify-content: center;
         margin: 20px auto;
         text-align: center;
-        max-width: 75%;
+        max-width: 80%;
+
+        & p {
+            text-align: left;
+        }
     }
 
     .img-about-1 {
-        height: 23em;
-        width: 23em;
+        width: 100%;
+        max-width: 290px; /* ou o limite desejado */
+        height: 290px;
+        display: block;
     }
 
     .btn {
@@ -66,4 +72,68 @@
 .link-reservar {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 420px) {
+    .text-about {
+        & h1 {
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 12px;
+        }
+    }
+
+        .link-reservar {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .img-about-1 {
+        width: 100%;
+        max-width: 220px; /* ou o limite desejado */
+        height: 220px;
+        display: block;
+    }
+
+    .text-about {
+        & h1 {
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 14px;
+            text-align: left;
+        }
+    }
+
+    .link-reservar {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) {
+    .img-about-1 {
+        width: 100%;
+        max-width: 200px; /* ou o limite desejado */
+        height: 200px;
+        display: block;
+    }
+
+    .text-about {
+        & h1 {
+            font-size: 18px;
+        }
+
+        & p {
+            font-size: 12px;
+            text-align: left;
+        }
+    }
+
+    .link-reservar {
+        font-size: 12px;
+    }
 }
