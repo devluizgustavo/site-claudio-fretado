@@ -17,7 +17,7 @@ export default function BusRoute() {
 
             <h1>Itinerário</h1>
 
-            <p>O fretado Cláudio Fretado realiza o trajeto completo entre a <b>Zona Leste</b> e o <b>Centro</b> de São Paulo. A rota de ida parte do Terminal Cidade Tiradentes até a região do Brás, passando por avenidas principais como Aricanduva e Celso Garcia. Na volta, o caminho se inicia na Estação da Luz e retorna ao terminal, atendendo pontos estratégicos como Rua Cantareira, Avenida dos Estados e Rua Bresser.</p>
+            <p>A JCP Locações realiza o trajeto completo entre a <b>Zona Leste</b> e o <b>Centro</b> de São Paulo. A rota de ida parte do Terminal Cidade Tiradentes até a região do Brás, passando por avenidas principais como Aricanduva e Celso Garcia. Na volta, o caminho se inicia na Estação da Luz e retorna ao terminal, atendendo pontos estratégicos como Rua Cantareira, Avenida dos Estados e Rua Bresser.</p>
 
             <div className='container-map'>
                 <div>

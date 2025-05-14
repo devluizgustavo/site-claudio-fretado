@@ -7,7 +7,7 @@ export default function Footer() {
     return (
     <footer className="site-footer">
       <div className="footer-content">
-        <p className="footer-title">Cláudio Fretado</p>
+        <p className="footer-title">JPC Locações</p>
 
         <div className="footer-socials">
           <a href="https://www.facebook.com/share/1AKzeXhJhN/" target="_blank" rel="noopener noreferrer">
@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
 
         <p className="footer-copy">
-          © {new Date().getFullYear()} Cláudio Fretado. Todos os direitos reservados.
+          © {new Date().getFullYear()} JPC Locações. Todos os direitos reservados.
         </p>
       </div>
     </footer>

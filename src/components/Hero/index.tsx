@@ -51,6 +51,7 @@ export default function Hero() {
             <div className='hero-text-overlay'>
                 <h2 className='hero-text'>Chega de pegar conduções lotadas!</h2>
                 <p className='hero-subtext'>Aqui você vai ao trabalho com <b>conforto</b> e <b>pontualidade.</b></p>
+                <h3>Fretado Zona Leste. <b>Cidade Tiradentes</b> até o <b>Brás</b></h3>
                 <a href="#contact" className='btn-reservar'>Quero reservar</a>
             </div>
 

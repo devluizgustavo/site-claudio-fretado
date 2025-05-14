@@ -1,10 +1,10 @@
 
-import Logo from '../../assets/Logo/1021x331.png';
+import Logo from '../../assets/Logo/logo-jcp.png';
 
 export default function Header() {
     return (
         <header>
-            <a href='/'><img src={Logo} height={90} className='logo'/></a>
+            <a href='/'><img src={Logo} height={300} className='logo'/></a>
             <nav>
                 <ul>
                     <li><a href="#about" className='about'>Sobre</a></li>

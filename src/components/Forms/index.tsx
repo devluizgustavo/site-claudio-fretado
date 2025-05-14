@@ -6,7 +6,7 @@ export default function Forms() {
             <div className="contato-container">
                 <h2 className="contato-title">Entre em Contato</h2>
                 <p className="contato-desc">
-                    Fale diretamente com o Cláudio para tirar dúvidas, solicitar informações ou agendar passeios.
+                    Fale diretamente conosco para tirar dúvidas, solicitar informações ou agendar passeios.
                 </p>
 
                 <form
@@ -22,7 +22,7 @@ export default function Forms() {
 
                 <div className="whatsapp-button">
                     <a href="https://wa.me/5511981545368">
-                        Falar com Cláudio no WhatsApp
+                        Entrar em contato pelo WhatsApp
                     </a>
                 </div>
             </div>
